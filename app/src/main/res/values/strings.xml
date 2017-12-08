@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RemoteLink</string>
+    <string name="remote">REMOTE</string>
+    <string name="Deskripsi1">Remote Link akan mengalihkan perangkat</string>
+    <string name="Deskripsi2">Anda menjadi remote PC. Jangan lupa instal</string>
+    <string name="Deskripsi3">Mendukung Bluetooth atau Wi-Fi</string>
+    <string name="url">"http://remotelink.asus.com" di komputer yang</string>
+    <string name="link">Link</string>
+    <string name="wi_fi">Wi-Fi</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="search_device"> Search Device </string>
+    <string name="sambung_cepat">Sambung Cepat</string>
+</resources>

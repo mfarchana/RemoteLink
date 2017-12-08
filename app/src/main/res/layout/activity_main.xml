@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1581E7"
+    android:orientation="vertical"
+    tools:context="net.aanuser.remotelink.MainActivity">
+
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/remotelink" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/mono"
+        android:text="@string/remote"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="60sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/link"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/Deskripsi1"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Deskripsi2"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="all"
+        android:clickable="true"
+        android:text="@string/url"
+        android:textAlignment="center"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:linksClickable="true"
+        android:text="@string/Deskripsi3"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="14sp" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp">
+
+        <RadioGroup
+            android:id="@+id/ig"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:onClick="wifi"
+                android:text="@string/wi_fi"
+                android:textColor="#FFF"
+                android:textSize="14sp"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_weight="1"
+                android:onClick="bluetooth"
+                android:text="@string/bluetooth"
+                android:textColor="#FFF" />
+        </RadioGroup>
+    </RelativeLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button_rounded"
+        android:onClick="search"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:text="@string/search_device"
+        android:textColor="#000" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/sambung_cepat"
+        android:textColor="#FFF"
+        android:textSize="16sp" />
+</LinearLayout>
